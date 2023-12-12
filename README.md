@@ -68,13 +68,13 @@ terraform-infrastructure
 ├── outputs.tf
 ├── modules/
 │ ├── app
-|    ├── main.tf
-|    ├── variables.tf
-|    ├── outputs.tf
+├──   ├── main.tf
+├──   ├── variables.tf
+├──   ├── outputs.tf
 │ ├── subnet
-|    ├── main.tf
-|    ├── variables.tf
-|    ├── outputs.tf
+├──   ├── main.tf
+├──   ├── variables.tf
+├──   ├── outputs.tf
 └── README.md
 ```
 
