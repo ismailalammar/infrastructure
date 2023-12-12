@@ -19,7 +19,7 @@ module "myapp-subnet" {
 }
 
 module "myapp-server" {
-    source = "./modules/webserver"
+    source = "./modules/app"
     vpc_id = aws_vpc.myapp-vpc.id
     my_ip = var.my_ip
     env_prefix = var.env_prefix
