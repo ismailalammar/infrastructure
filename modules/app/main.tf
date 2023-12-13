@@ -41,8 +41,10 @@ data "aws_ami" "latest-amazon-linux-image" {
     }
 }
 
+# create key pair to enable ssh request to ec2 instance
 resource "aws_key_pair" "ssh-key" {
     key_name = "server-key"
+    # provide the path for the public ssh key, e.g ~/.ssh/
     public_key = file(var.public_key_location)
 }
 
