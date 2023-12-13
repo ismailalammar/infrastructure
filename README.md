@@ -44,7 +44,7 @@ Before using this Terraform project, ensure that you have the following:
 
 3. **Create and customize the variables in `terraform.tfvars` file.**
 
-4. **Set `access_key` and `secret_key` as and environment variable to manage your infa**
+4. **Set `access_key` and `secret_key` as environment variables to manage your infa**
 
 5. **Review the Terraform configuration:**
     ```bash
