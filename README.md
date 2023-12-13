@@ -44,12 +44,14 @@ Before using this Terraform project, ensure that you have the following:
 
 3. **Create and customize the variables in `terraform.tfvars` file.**
 
-4. **Review the Terraform configuration:**
+4. **Set `access_key` and `secret_key` as and environment variable to manage your infa**
+
+5. **Review the Terraform configuration:**
     ```bash
     terraform plan
     ```
 
-5. **Apply the Terraform configuration:**
+6. **Apply the Terraform configuration:**
 
     ```bash
     terraform apply
@@ -57,7 +59,7 @@ Before using this Terraform project, ensure that you have the following:
 
     Follow the prompts to confirm the changes.
 
-6. **After provisioning is complete, access the deployed application using the public IP of the EC2 instance.**
+7. **After provisioning is complete, access the deployed application using the public IP of the EC2 instance.**
 
 ## Folder Structure
 
